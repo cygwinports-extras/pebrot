@@ -1,0 +1,5 @@
+category: Net
+requires: cygwin python
+sdesc: "Console MSN messenger client"
+ldesc: "Pebrot is a text MSN messenger client implemented with Python. 
+It has also a pretty and colorful Curses-based interface."

@@ -1,0 +1,88 @@
+pebrot
+-------------------------------------------
+Pebrot is a text MSN messenger client implemented with Python. It has 
+also a pretty and colorful Curses-based interface.
+
+Runtime requirements:
+  cygwin-1.5.19-4
+  python-2.4.1-1
+
+Canonical homepage:
+  http://pebrot.sourceforge.net/
+
+Canonical download:
+  http://prdownloads.sourceforge.net/pebrot/
+
+-------------------------------------------
+
+Build instructions:
+  unpack pebrot-0.8.8-1-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./pebrot-0.8.8-1.cygport all
+
+This will create:
+  /usr/src/pebrot-0.8.8-1-src.tar.bz2
+  /usr/src/pebrot-0.8.8-1.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /usr/bin/pebrot
+  /usr/lib/python2.4/site-packages/pypebrot/MSN.py
+  /usr/lib/python2.4/site-packages/pypebrot/MSN.pyc
+  /usr/lib/python2.4/site-packages/pypebrot/MSN.pyo
+  /usr/lib/python2.4/site-packages/pypebrot/__init__.py
+  /usr/lib/python2.4/site-packages/pypebrot/__init__.pyc
+  /usr/lib/python2.4/site-packages/pypebrot/__init__.pyo
+  /usr/lib/python2.4/site-packages/pypebrot/pebrot.py
+  /usr/lib/python2.4/site-packages/pypebrot/pebrot.pyc
+  /usr/lib/python2.4/site-packages/pypebrot/pebrot.pyo
+  /usr/lib/python2.4/site-packages/pypebrot/ui.py
+  /usr/lib/python2.4/site-packages/pypebrot/ui.pyc
+  /usr/lib/python2.4/site-packages/pypebrot/ui.pyo
+  /usr/share/doc/Cygwin/pebrot-0.8.8.README
+  /usr/share/doc/pebrot-0.8.8/AUTHORS
+  /usr/share/doc/pebrot-0.8.8/COPYING
+  /usr/share/doc/pebrot-0.8.8/ChangeLog
+  /usr/share/doc/pebrot-0.8.8/INSTALL
+  /usr/share/doc/pebrot-0.8.8/README
+  /usr/share/doc/pebrot-0.8.8/logos/moo.txt
+  /usr/share/doc/pebrot-0.8.8/logos/pebrot.txt
+  /usr/share/doc/pebrot-0.8.8/logos/readme
+  /usr/share/doc/pebrot-0.8.8/pebrotrc
+  /usr/share/doc/pebrot-0.8.8/utils/enc.py
+  /usr/share/doc/pebrot-0.8.8/utils/example.py
+  /usr/share/doc/pebrot-0.8.8/utils/getkeys.py
+  /usr/share/doc/pebrot-0.8.8/utils/keymap.py
+  /usr/share/doc/pebrot-0.8.8/utils/transparent_bg/readme
+  /usr/share/doc/pebrot-0.8.8/utils/transparent_bg/setup.py
+  /usr/share/doc/pebrot-0.8.8/utils/transparent_bg/usedefault.c
+  /usr/share/locale/es/LC_MESSAGES/pebrot.mo
+  /usr/share/locale/pt_BR/LC_MESSAGES/pebrot.mo
+  /usr/share/locale/pt_PT/LC_MESSAGES/pebrot.mo
+
+------------------
+
+Port Notes:
+
+----- version 0.8.8-1 -----
+Version bump.
+
+----- version 0.8.7.1-1 -----
+Version bump.
+
+----- version 0.8.7-1 -----
+Version bump, built for python2.4.
+
+----- version 0.8.6-1 -----
+New upstream release.
+
+----- version 0.8.5-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
