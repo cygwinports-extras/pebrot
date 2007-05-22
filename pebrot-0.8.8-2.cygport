@@ -1,0 +1,12 @@
+inherit distutils
+
+DESCRIPTION="MSN Messenger console client"
+HOMEPAGE="http://pebrot.sourceforge.net/"
+SRC_URI="mirror://sourceforge/${PN}/${P}.tar.bz2"
+
+src_install() {
+	cd ${B}
+	distutils_install
+
+	mv ${D}/usr/share/doc/${PN} ${D}/usr/share/doc/${P}
+}

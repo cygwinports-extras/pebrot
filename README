@@ -4,14 +4,14 @@ Pebrot is a text MSN messenger client implemented with Python. It has
 also a pretty and colorful Curses-based interface.
 
 Runtime requirements:
-  cygwin-1.5.19-4
-  python-2.4.1-1
+  cygwin-1.5.24-2
+  python-2.5.1-1
 
 Canonical homepage:
   http://pebrot.sourceforge.net/
 
 Canonical download:
-  http://prdownloads.sourceforge.net/pebrot/
+  http://downloads.sourceforge.net/pebrot/
 
 -------------------------------------------
 
@@ -31,18 +31,18 @@ This will create:
 Files included in the binary package:
 
   /usr/bin/pebrot
-  /usr/lib/python2.4/site-packages/pypebrot/MSN.py
-  /usr/lib/python2.4/site-packages/pypebrot/MSN.pyc
-  /usr/lib/python2.4/site-packages/pypebrot/MSN.pyo
-  /usr/lib/python2.4/site-packages/pypebrot/__init__.py
-  /usr/lib/python2.4/site-packages/pypebrot/__init__.pyc
-  /usr/lib/python2.4/site-packages/pypebrot/__init__.pyo
-  /usr/lib/python2.4/site-packages/pypebrot/pebrot.py
-  /usr/lib/python2.4/site-packages/pypebrot/pebrot.pyc
-  /usr/lib/python2.4/site-packages/pypebrot/pebrot.pyo
-  /usr/lib/python2.4/site-packages/pypebrot/ui.py
-  /usr/lib/python2.4/site-packages/pypebrot/ui.pyc
-  /usr/lib/python2.4/site-packages/pypebrot/ui.pyo
+  /usr/lib/python2.5/site-packages/pypebrot/MSN.py
+  /usr/lib/python2.5/site-packages/pypebrot/MSN.pyc
+  /usr/lib/python2.5/site-packages/pypebrot/MSN.pyo
+  /usr/lib/python2.5/site-packages/pypebrot/__init__.py
+  /usr/lib/python2.5/site-packages/pypebrot/__init__.pyc
+  /usr/lib/python2.5/site-packages/pypebrot/__init__.pyo
+  /usr/lib/python2.5/site-packages/pypebrot/pebrot.py
+  /usr/lib/python2.5/site-packages/pypebrot/pebrot.pyc
+  /usr/lib/python2.5/site-packages/pypebrot/pebrot.pyo
+  /usr/lib/python2.5/site-packages/pypebrot/ui.py
+  /usr/lib/python2.5/site-packages/pypebrot/ui.pyc
+  /usr/lib/python2.5/site-packages/pypebrot/ui.pyo
   /usr/share/doc/Cygwin/pebrot-0.8.8.README
   /usr/share/doc/pebrot-0.8.8/AUTHORS
   /usr/share/doc/pebrot-0.8.8/COPYING
@@ -67,6 +67,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.8.8-2 -----
+Rebuilt for python-2.5.
 
 ----- version 0.8.8-1 -----
 Version bump.
